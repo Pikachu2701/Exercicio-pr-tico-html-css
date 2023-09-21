@@ -1,5 +1,5 @@
-<h1>Exercício Prático com HTML e CSS</h1>
-<img src="../assets/Screenshot.png">
+<h1>Exercício Prático de desenvolvimento web com HTML e CSS </h1>
+<img src="./assets/Screenshot.png">
 <h3>Titulo principal: Conceitos Front-end</h3>
 
 Bem-vindo a esta apresentação de uma página de exercício prático com HTML e CSS, que inclui um título acompanhando a barra de rolagem. Vamos mergulhar nos detalhes deste projeto empolgante que demonstra o poder do desenvolvimento web!

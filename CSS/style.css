@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  background-color: #ccc;
+}
+
+header.hero {
+  height: 900px;
+  background: url(../assets/bg-3.jpg);
+  background-size: cover;
+  background-position: right center;
+
+  color: #fff;
+}
+
+.hero ul {
+  display: flex;
+  list-style: none;
+  justify-content: end;
+  gap: 12px;
+  padding: 50px;
+  margin-right: 40px;
+}
+.hero ul a {
+  color: #fff;
+  background-color: #807676;
+  padding: 10px;
+  text-decoration: none;
+  border: 1px solid;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.hero ul a:hover,
+.btn:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.hero-content {
+  margin: 190px auto 0;
+  width: 80%;
+  text-align: center;
+  color: #fff;
+}
+.hero-content h1 {
+  font-size: 56px;
+
+  text-shadow: 2px 2px 4px rgba(4, 3, 3, 0.8);
+  text-transform: capitalize;
+}
+.hero-content p {
+  font-size: 18px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid;
+  display: inline;
+  padding: 5px 10px;
+}
+.hero-content {
+    position: sticky;
+    top: 0;
+    bottom: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 0 auto;
+}
+section {
+  margin: 20px auto;
+}
+article h2 {
+  padding-left: 20px;
+}
+.html-information {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 4px rgba(4, 3, 3, 0.8);
+}
+.css-information {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 4px rgba(4, 3, 3, 0.8);
+}
+.javascript-information {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+
+  box-shadow: 2px 2px 4px rgba(4, 3, 3, 0.8);
+}
+h2 {
+  background-color: #ccc;
+  margin: 20px 0;
+}
+.rodape {
+  color: #fff;
+  background-color: #807676;
+  width: 100%;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 20px;
+}
+.btn {
+  color: #000;
+  background-color: #c6bdbd;
+  margin-top: 20px;
+
+  display: flex;
+  margin-left: auto;
+  justify-content: center;
+  width: 100px;
+
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+@media screen and (min-width: 758px;) {
+  img {
+    display: flex;
+    justify-content: center;
+  }
+}
